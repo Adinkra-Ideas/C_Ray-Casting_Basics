@@ -1,18 +1,7 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: juzoanya <juzoanya@student.42wolfsburg.    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/11/17 22:09:40 by euyi              #+#    #+#              #
-#    Updated: 2022/12/17 20:34:04 by juzoanya         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
 
 UNAME := $(shell uname -s)
 
-NAME = cub3d
+NAME = cast_rays
 
 SRC = 	app/main.c	app/check_valid_scene.c	app/run_cube.c	\
 		assets/check_valid_scene_utils.c	assets/check_valid_scene_utils0.c	\
